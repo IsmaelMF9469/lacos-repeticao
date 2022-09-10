@@ -1,0 +1,23 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro valor = 0 , quantidade= 0
+	real soma = 0.0, media = 0.0
+	
+		enquanto(valor >= 0){
+		escreva("\n Digite um valor ")
+		leia(valor)
+		
+		se(valor >= 0){
+			quantidade ++
+		}
+		soma = soma + valor
+		media = soma / quantidade
+		
+		escreva("\n Quantidade: ",quantidade)
+		escreva("\n Soma: ",soma)
+		escreva("\n Media: ",media)
+		}
+	}
+}
